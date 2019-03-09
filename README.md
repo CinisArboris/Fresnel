@@ -1,2 +1,2 @@
 # Fresnel
-Calculo de la zona de freznel, calculo para radionenlace.
+Calculo de la zona de fresnel, calculo para radionenlace.
