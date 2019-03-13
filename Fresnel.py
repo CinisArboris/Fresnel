@@ -7,9 +7,9 @@ def bannerPrimeraZonaFresnel():
 	print ("r2 - distancia de la antena al obstáculo (km)")
 	print ("r  - distancia entre antenas (km)")
 	print ("f  - frecuencia de operación del sistema (GHz)")
-
+	print ("ejemplo ::: r1=10, r2=20, r=30, f=5")
 def primeraZonaFresnel (r1, r2, r, f):
-	bannerPrimeraZonaFresnel()
+	#bannerPrimeraZonaFresnel()
 	numerador = r1 * r2
 	denominador = r * f
 	#print ("ss", (numerador/denominador)**(1/2) )
@@ -18,7 +18,7 @@ def primeraZonaFresnel (r1, r2, r, f):
 def welcome(seleccion):	
 	print ("Bienvenido :)")
 	print ("Ëlija una opcion: ")
-	print ("Op 1 - primeraZonaFresnel")
+	print ("Op [1] - primeraZonaFresnel")
 	print ("null")
 	print ("null")
 	print ("null")
@@ -51,5 +51,6 @@ if (seleccion == 1):
 	#limpiar()
 	print ("Primera Zona de Fresnel", F1)
 	print (F1, "Es la distancia max, que no debe haber interferencia.")
+	os.system("pause")
 else:
 	print("Ninguna opcion seleccionada, hasta luego :)")
